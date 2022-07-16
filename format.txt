@@ -1,3 +1,4 @@
 ID\t{{.ID}}\nNAME\t{{.Names}}\nImage\t{{.Image}}\nPORTS\t{{.Ports}}\nCOMMAND\t{{.Command}}\nCREATED\t{{.CreatedAt}}\nSTATUS\t{{.Status}}\n
 
 #use this in a variable i.e export FORMAT = {{paste_code_here}} 
+#use it with docker ps --format = $FORMAT
